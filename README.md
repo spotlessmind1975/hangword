@@ -3,7 +3,10 @@ Hangword! - An hangman game for (many) retrocomputers
 
 **[![copertina](pictures/copertina.jpg)](https://spotlessmind1975.itch.io/hangword)**
 
-**[Hangword!](https://spotlessmind1975.itch.io/hangword)** is the electronic version of a guessing game for one player. The computer choose a word and the player tries to guess it by suggesting letters within seven (7) guesses. The game contains **a vocabulary of 2.048 words** (both Italian and English), and the repository contains more vocabularies that could be alternatively used, if recompiled. Rules and instructions can be found [here](/docs/game-rules.md).
+**[Hangword!](https://spotlessmind1975.itch.io/hangword)** is the electronic version of a guessing game for one player. The computer chooses a word and the player tries to guess it by suggesting letters within seven (7) guesses. The game contains **a vocabulary of 2.048 words** (both Italian and English), and the repository contains more vocabularies that could be alternatively used, if recompiled. Rules and instructions can be found [here](/docs/game-rules.md).
+
+An Italian version (i.e. with an Italian dictionary) is also available:
+**[![copertina ita](pictures/copertina_ita.jpg)](https://spotlessmind1975.itch.io/hangword-ita)**
 
 This game is participating in the [Retro Programming Inside Challenge](https://www.facebook.com/groups/RetroProgrammersInside/posts/1181708413163015/). The game has been written by Marco Spedaletti in [ugBASIC](https://ugbasic.iwashere.eu). It was developed starting from just **one single source code**, and it supports many ugBASIC's targets.
 
