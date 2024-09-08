@@ -735,7 +735,7 @@ DO
 	' First of all, let's create a string where we will keep track of the 
 	' letters guessed. We will use the space to indicate the letters to guess.
 
-	shownWord = "            "
+	shownWord = DUP(" ",wordLen)
 
 	'''---------------------------------------------------------------------------
 	''' MAIN PLAY LOOP
