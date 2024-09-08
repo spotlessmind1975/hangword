@@ -298,6 +298,10 @@ POSITIVE CONST gameOverY = _
 POSITIVE CONST wordCountingX = (COLUMNS - LEN(wordName)) / 2
 POSITIVE CONST wordCountingY = ( ROWS / 2 ) - 2
 
+' Initialize the empty string for shown word.
+
+CONST wordEmpty = IF (wordLen=12,"            ","         ")
+
 '''---------------------------------------------------------------------------
 ''' PROCEDURES
 '''---------------------------------------------------------------------------
@@ -735,7 +739,7 @@ DO
 	' First of all, let's create a string where we will keep track of the 
 	' letters guessed. We will use the space to indicate the letters to guess.
 
-	shownWord = DUP(" ",wordLen)
+	shownWord = wordEmpty
 
 	'''---------------------------------------------------------------------------
 	''' MAIN PLAY LOOP
