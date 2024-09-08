@@ -852,6 +852,8 @@ DO
 		CENTER "GAME OVER!"
 	ENDIF
 
+	playerWin = FALSE
+
 	' In both events, we draw out the secret word.
 	
 	INK COLOR(3)
